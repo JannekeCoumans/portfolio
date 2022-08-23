@@ -1,0 +1,45 @@
+.portfolio {
+  display: flex;
+  width: 100vw;
+  max-height: 100vh;
+  background-color: $darkgreen;
+  background-image: url("./assets/images/pattern.png");
+  background-size: contain;
+  // background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .container {
+    width: calc(100vw - 416px);
+    background-color: white;
+    border-radius: 3rem 0 0 0;
+    overflow: hidden;
+
+    &__content {
+      height: calc(100vh - 117px);
+      overflow-y: auto;
+      padding: 0 4rem 4rem;
+
+      @media screen and (max-width: 1300px) {
+        padding: 0 2rem 2rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 90vw;
+      border-radius: 3rem;
+      margin: 0 auto;
+    }
+    .widgets {
+      display: none;
+    }
+  }
+
+  @media screen and (max-height: 780px) {
+    .widgets .widget__email {
+      display: none;
+    }
+  }
+}

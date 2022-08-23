@@ -1,0 +1,17 @@
+.socialIcons {
+  display: flex;
+  padding-top: 1.5rem;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: $darkgreen;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+}

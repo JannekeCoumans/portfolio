@@ -1,0 +1,79 @@
+.skillsView {
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &--item {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      padding: 1rem;
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80px;
+        background-color: $beige;
+        font-size: 2rem;
+        border-radius: 1rem;
+
+        img {
+          width: 2rem;
+          height: auto;
+        }
+      }
+
+      &:nth-child(1) .icon,
+      &:nth-child(4) .icon,
+      &:nth-child(7) .icon,
+      &:nth-child(10) .icon {
+        border-bottom-left-radius: 0;
+      }
+
+      &:nth-child(2) .icon,
+      &:nth-child(5) .icon,
+      &:nth-child(8) .icon,
+      &:nth-child(11) .icon {
+        background-color: $purple;
+        border-top-left-radius: 0;
+      }
+
+      &:nth-child(3) .icon,
+      &:nth-child(6) .icon,
+      &:nth-child(9) .icon,
+      &:nth-child(12) .icon {
+        background-color: $lightgreen;
+        border-bottom-right-radius: 0;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+        h4 {
+          margin-bottom: 0.25rem;
+        }
+
+        .skillCircles {
+          display: flex;
+          gap: 0.25rem;
+          div {
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 100%;
+            border: 1px solid $orange;
+          }
+
+          .fullCircle {
+            background-color: $orange;
+          }
+        }
+
+        .skillExplanation {
+          padding-top: 1rem;
+        }
+      }
+    }
+  }
+}

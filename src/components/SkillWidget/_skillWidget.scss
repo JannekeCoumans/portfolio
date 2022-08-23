@@ -1,0 +1,22 @@
+.skillWidget {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: .5rem;
+  padding-top: 1.5rem;
+
+  &__item {
+    position: relative;
+
+    .skillWidget__icon {
+      position: absolute;
+      color: $orange;
+      fill: $orange;
+      font-size: 21rem;
+      left: calc(50% - 1rem);
+      top: calc(50% - 1rem);
+      width: 2rem;
+      height: 2rem;
+      object-fit: contain;
+    }
+  }
+}

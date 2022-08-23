@@ -1,0 +1,41 @@
+.workView {
+  &__intro {
+    p {
+      padding-bottom: 3rem;
+    }
+  }
+
+  &__content {
+    &--item {
+      width: 100%;
+      max-width: 600px;
+      padding-bottom: 2rem;
+      padding-left: 1rem;
+      h3 {
+        display: inline-block;
+        background-color: $purple;
+        color: $darkgreen;
+        border-radius: 0.75rem;
+        border-bottom-right-radius: 0;
+        padding: 0.5rem 1.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: -1rem;
+      }
+
+      .function {
+        color: $darkgreen;
+        font-weight: bold;
+        text-transform: lowercase;
+      }
+
+      .timing {
+        color: rgba(0, 0, 0, 0.5);
+        text-transform: lowercase;
+      }
+
+      .description {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+}

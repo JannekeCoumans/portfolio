@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: $lightgrey;
+  padding: 3rem 4rem;
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    a {
+      display: block;
+      color: rgba(0, 0, 0, 0.75);
+      text-transform: lowercase;
+
+      &.selected {
+        color: black;
+        font-weight: 800;
+      }
+    }
+  }
+
+  &__contact {
+    color: $darkgreen;
+    margin-left: auto;
+
+    a:nth-child(1) {
+      margin-right: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 1320px) {
+    &__items {
+      gap: 1rem;
+    }
+  }
+}
