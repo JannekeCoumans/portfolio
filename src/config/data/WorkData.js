@@ -55,8 +55,8 @@ const WorkData = [
       NL: "Monkey Vision is een webbureau gevestigd in Nijmegen. Naast klantencontact als supportmedewerker, hield ik me ook bezig met ontwikkelen van diverse WordPress-websites. Ik hield me dagelijks bezig met creatieve manieren zoeken om verschillende hosting, e-mail en/of technische WordPress problemen op te lossen.",
     },
     timing: {
-      EN: "January 2021 - May 2022",
-      NL: "Januari 2021 - Mei 2022",
+      EN: "June 2020 - December 2020",
+      NL: "Juni 2020 - December 2020",
     },
   },
 ];

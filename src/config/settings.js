@@ -42,7 +42,7 @@ const settings = {
   skills: [
     {
       name: 'JavaScript',
-      level: 3,
+      level: 4,
       icon: 'js',
       fontawesome: true,
       widget: true,
@@ -66,7 +66,7 @@ const settings = {
     },
     {
       name: 'Sass',
-      level: 5,
+      level: 4,
       icon: 'sass',
       fontawesome: true,
       widget: false,
@@ -78,7 +78,7 @@ const settings = {
     },
     {
       name: 'Node JS',
-      level: 4,
+      level: 3,
       icon: 'node',
       fontawesome: true,
       widget: false,
@@ -89,7 +89,7 @@ const settings = {
       },
     },
     {
-      name: 'Illustrator',
+      name: 'Adobe Illustrator',
       level: 3,
       icon: 'illustrator',
       fontawesome: false,
@@ -101,7 +101,7 @@ const settings = {
       },
     },
     {
-      name: 'Photoshop',
+      name: 'Adobe Photoshop',
       level: 3,
       icon: 'photoshop',
       fontawesome: false,

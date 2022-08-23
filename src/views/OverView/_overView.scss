@@ -9,20 +9,19 @@
       grid-template-columns: repeat(2, 1fr);
 
       &--column {
-
         p {
-          color: rgba(0,0,0,0.5);
+          color: rgba(0, 0, 0, 0.5);
           text-transform: lowercase;
         }
-  
+
         h1 {
           color: $darkgreen;
           font-size: 2rem;
         }
 
-        &:nth-child(1), &:nth-child(2) {
-          
-        padding-bottom: 1.5rem;
+        &:nth-child(1),
+        &:nth-child(2) {
+          padding-bottom: 1.5rem;
         }
       }
     }
@@ -31,9 +30,11 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      max-width: 460px;
+      
       &--item {
         p {
-          color: rgba(0,0,0,0.5);
+          color: rgba(0, 0, 0, 0.5);
         }
         .title {
           color: $darkgreen;

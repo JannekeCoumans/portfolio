@@ -1,9 +1,29 @@
-import React from "react";
-import { ContentHeader, OverViewPortfolio, OverViewSkills } from "config/C4";
+import React, { useEffect, useState } from "react";
+import {
+  ContentHeader,
+  OverViewPortfolio,
+  OverViewSkills,
+  StorageHandler,
+  WorkData,
+} from "config/C4";
 import i18n from "config/i18n";
 
 const OverView = () => {
-  const { overview: { titles, facts } } = i18n();
+  const [activeLanguage, setActiveLanguage] = useState(null);
+  const {
+    overview: { titles, facts },
+  } = i18n();
+
+  const getLanguage = () => {
+    const language = StorageHandler.get("language");
+    if (!activeLanguage) {
+      setActiveLanguage(language.code);
+    }
+  };
+
+  useEffect(() => {
+    getLanguage();
+  });
 
   return (
     <div className="overView">
@@ -28,30 +48,31 @@ const OverView = () => {
               <h1>feb 24 '90</h1>
             </div>
           </div>
-          
+
           <ContentHeader title={titles.skills} link="/skills" arrow />
           <OverViewSkills />
         </div>
         <div className="overView__column">
           <ContentHeader title={titles.jobs} link="/work" arrow />
           <div className="overView__work">
-            <div className="overView__work--item">
-              <p className="company">
-                <span>TravPRO Mobile</span>
-              </p>
-              <p className="title">Front-end Developer</p>
-              <p className="dates">may 2021 - present</p>
-            </div>
-            <div className="overView__work--ampersand">
-              <p>&</p>
-            </div>
-            <div className="overView__work--item">
-              <p className="company">
-                <span>Studio Pixels & Code</span>
-              </p>
-              <p className="title">owner</p>
-              <p className="dates">april 2021 - june 2022</p>
-            </div>
+            {WorkData.slice(0, 2).map((item, i) => {
+              return (
+                <React.Fragment key={i}>
+                  <div className="overView__work--item">
+                    <p className="company">
+                      <span>{item.company}</span>
+                    </p>
+                    <p className="title">{item.function[activeLanguage]}</p>
+                    <p className="dates">{item.timing[activeLanguage]}</p>
+                  </div>
+                  {i === 0 && (
+                    <div className="overView__work--ampersand">
+                      <p>&</p>
+                    </div>
+                  )}
+                </React.Fragment>
+              );
+            })}
           </div>
           <OverViewPortfolio />
         </div>
