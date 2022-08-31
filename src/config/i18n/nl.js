@@ -25,7 +25,7 @@ const nederlands = {
       portfolio: "Portfolio Items",
     },
     facts: {
-      title: "Een paar snelle feitjes",
+      title: "Een paar korte feitjes",
       firstName: "Voornaam",
       lastName: "Achternaam",
       city: "Woonplaats",

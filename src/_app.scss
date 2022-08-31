@@ -37,6 +37,24 @@
     }
   }
 
+  @media screen and (max-width: 1130px) {
+    .container {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    max-height: unset;
+    .container {
+      overflow: unset;
+      &__content {
+        height: unset;
+        padding: 5rem 1.5rem 1.5rem;
+      }
+    }
+  }
+
   @media screen and (max-height: 780px) {
     .widgets .widget__email {
       display: none;

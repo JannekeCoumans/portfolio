@@ -137,7 +137,7 @@ const settings = {
       },
     },
   ],
-  accessToken: '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',
+  accessToken: '',
 };
 
 export default settings;

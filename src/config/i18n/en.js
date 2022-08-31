@@ -26,7 +26,7 @@ const english = {
       portfolio: 'Portfolio Items',
     },
     facts: {
-      title: 'A few quick facts',
+      title: 'A few fast facts',
       firstName: 'First Name',
       lastName: 'Last Name',
       city: 'Place of Residence',

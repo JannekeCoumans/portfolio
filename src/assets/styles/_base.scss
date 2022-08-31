@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+button {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
 .btn {
   display: inline-flex;
   justify-content: center;

@@ -4,6 +4,11 @@
   align-items: center;
   background-color: $lightgrey;
   padding: 3rem 4rem;
+  z-index: 200;
+
+  &__mobile {
+    display: none;
+  }
 
   &__items {
     display: flex;
@@ -34,6 +39,101 @@
   @media screen and (max-width: 1320px) {
     &__items {
       gap: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $purple;
+    padding: 1rem 1.5rem;
+
+    &__items,
+    &__contact,
+    &__language {
+      display: none;
+    }
+
+    &__mobile {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      &--logo {
+        width: 100%;
+        max-width: 180px;
+      }
+
+      &--button, .nav__mobile--close {
+        color: darken($purple, 20%);
+        font-size: 1.75rem;
+      }
+
+      &--content {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        min-height: 100vh;
+        background-color: $purple;
+        overflow: hidden;
+        transition: 2s;
+
+        .nav__mobile--header {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 1rem 1.5rem;
+        }
+
+        .languageSelect {
+          &__button {
+            color: darken($purple, 20%);
+            font-size: 1.5rem;
+            padding: 3rem 1.5rem;
+            margin: auto;
+
+            p span {
+              display: block;
+              font-weight: bold;
+            }
+          }
+
+          &__menu {
+            &--content {
+              top: 30vh;
+              right: unset;
+              left: 5vw;
+              align-items: center;
+              min-width: 90vw;
+              background-color: darken($purple, 20%);
+              button {
+                font-size: 1.25rem;
+              }
+            }
+          }
+        }
+
+        .nav__items {
+          display: flex;
+          flex-direction: column;
+          font-size: 1.5rem;
+          text-align: center;
+        }
+
+        &.closed {
+          transform: translateX(100%);
+          transition: 0.2s;
+        }
+
+        &.open {
+          transform: translateX(0%);
+          transition: 0.2s;
+        }
+      }
     }
   }
 }
