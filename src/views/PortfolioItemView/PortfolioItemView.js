@@ -39,13 +39,31 @@ const PortfolioItemView = () => {
           <div className="portfolioItemView__buildWith">
             <h3>{portfolioitemview.builtWith}</h3>
             <div className="portfolioItemView__buildWith--items">
-              {portfolioItem.buildWith.join(', ')}
+              {portfolioItem.buildWith.join(", ")}
             </div>
           </div>
 
           <div className="portfolioItemView__links">
-            {portfolioItem.url && <a href={portfolioItem.url} target="_blank" rel="noopener noreferrer" className="btn">{portfolioitemview.websiteButton}</a>}
-            {portfolioItem.githubUrl && <a href={portfolioItem.githubUrl} target="_blank" rel="noopener noreferrer" className="btn darkgreen">{portfolioitemview.githubButton}</a>}
+            {portfolioItem.url && (
+              <a
+                href={portfolioItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                {portfolioitemview.websiteButton}
+              </a>
+            )}
+            {portfolioItem.githubUrl && (
+              <a
+                href={portfolioItem.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn darkgreen"
+              >
+                {portfolioitemview.githubButton}
+              </a>
+            )}
           </div>
         </div>
         <div
@@ -54,9 +72,19 @@ const PortfolioItemView = () => {
             backgroundImage: `url(${
               require(`../../assets/images/portfolio/${portfolioItem.slug}-featured.jpg`)
                 .default
-            })`
+            })`,
           }}
         />
+        {portfolioItem.imagesCount > 0 && (
+          <div className="portfolioItemView__images">
+            {Array.from(Array(portfolioItem.imagesCount), (e, i) => (
+              <img
+              src={require(`../../assets/images/portfolio/${portfolioItem.slug}-${i + 1}.jpg`).default}
+              alt={portfolioItem.name}
+            />
+            ))}
+          </div>
+        )}
       </div>
     );
   }

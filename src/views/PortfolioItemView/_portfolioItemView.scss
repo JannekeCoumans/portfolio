@@ -2,10 +2,15 @@
   display: grid;
   grid-template-columns: 3fr 2fr;
   width: 100%;
+  padding-top: 2rem;
 
   &__content {
-    .contentHeader h1 {
-      text-transform: none;
+    .contentHeader {
+      padding-top: 0;
+      
+      h1 {
+        text-transform: none;
+      }
     }
   }
 
@@ -37,7 +42,21 @@
     background-position: center right;
     border-radius: 1.5rem;
     border-bottom-left-radius: 0;
-    margin-top: 2rem;
+  }
+
+  &__images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 2rem;
+    grid-column: span 2;
+    padding-top: 3rem;
+
+    img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
   }
 
   &.error {
