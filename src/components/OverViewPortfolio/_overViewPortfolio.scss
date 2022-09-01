@@ -53,4 +53,10 @@
       }
     }
   }
+
+  @media screen and (max-width: 500px) {
+    &--grid {
+      justify-content: space-evenly;
+    }
+  }
 }

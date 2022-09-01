@@ -100,5 +100,9 @@
       width: 100%;
       max-width: unset;
     }
+
+    &__content {
+      padding-right: 0;
+    }
   }
 }
