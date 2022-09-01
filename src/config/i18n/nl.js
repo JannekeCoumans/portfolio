@@ -95,6 +95,11 @@ const nederlands = {
     title: "Werkervaring",
     copy: "Hieronder een aantal van mijn relevantie vorige werkgevers. Mocht je nog vragen hebben, neem gerust contact met me op.",
   },
+  contactview: {
+    title: "Neem contact met me op!",
+    copy1: "Mocht je in contact willen komen met me na het zien van mijn portfolio, aarzel niet om me te mailen op ",
+    copy2: "Je kunt me ook bellen of een berichtje sturen op ",
+  }
 };
 
 export default nederlands;

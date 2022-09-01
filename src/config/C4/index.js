@@ -21,6 +21,7 @@ export { default as AppRouter} from '../../routers/AppRouter';
 export { default as ScrollToTop} from '../../routers/ScrollToTop';
 
 // VIEWS
+export { default as ContactView} from '../../views/ContactView';
 export { default as OverView} from '../../views/OverView';
 export { default as PersonalView} from '../../views/PersonalView';
 export { default as PortfolioItemView} from '../../views/PortfolioItemView';

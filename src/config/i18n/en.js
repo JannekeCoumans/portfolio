@@ -93,6 +93,11 @@ const english = {
   workview: {
     title: 'Work Experience',
     copy: 'Below are some of my relevance previous employers. If you have any questions, feel free to contact me.',
+  },
+  contactview: {
+    title: "Get in touch with me!",
+    copy1: "If you want to get in touch with me after seeing my portfolio, don't hesitate to email me at ",
+    copy2: "You can also call me or send me a text at ",
   }
 };
 

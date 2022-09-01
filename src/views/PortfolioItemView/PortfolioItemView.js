@@ -32,42 +32,43 @@ const PortfolioItemView = () => {
   if (portfolioItem) {
     return (
       <div className="portfolioItemView">
-        <div className="portfolioItemView__content">
-          <ContentHeader title={portfolioItem.name} />
-          <p>{portfolioItem.summary[language]}</p>
+        <div className="portfolioItemView__header">
+          <div className="portfolioItemView__header--content">
+            <ContentHeader title={portfolioItem.name} />
+            <p>{portfolioItem.summary[language]}</p>
 
-          <div className="portfolioItemView__buildWith">
-            <h3>{portfolioitemview.builtWith}</h3>
-            <div className="portfolioItemView__buildWith--items">
-              {portfolioItem.buildWith.join(", ")}
+            <div className="portfolioItemView__buildWith">
+              <h3>{portfolioitemview.builtWith}</h3>
+              <div className="portfolioItemView__buildWith--items">
+                {portfolioItem.buildWith.join(", ")}
+              </div>
+            </div>
+
+            <div className="portfolioItemView__links">
+              {portfolioItem.url && (
+                <a
+                  href={portfolioItem.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn"
+                >
+                  {portfolioitemview.websiteButton}
+                </a>
+              )}
+              {portfolioItem.githubUrl && (
+                <a
+                  href={portfolioItem.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn darkgreen"
+                >
+                  {portfolioitemview.githubButton}
+                </a>
+              )}
             </div>
           </div>
-
-          <div className="portfolioItemView__links">
-            {portfolioItem.url && (
-              <a
-                href={portfolioItem.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn"
-              >
-                {portfolioitemview.websiteButton}
-              </a>
-            )}
-            {portfolioItem.githubUrl && (
-              <a
-                href={portfolioItem.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn darkgreen"
-              >
-                {portfolioitemview.githubButton}
-              </a>
-            )}
-          </div>
-        </div>
-        <div
-          className="portfolioItemView__featuredImage"
+          <div
+          className="portfolioItemView__header--image"
           style={{
             backgroundImage: `url(${
               require(`../../assets/images/portfolio/${portfolioItem.slug}-featured.jpg`)
@@ -75,13 +76,19 @@ const PortfolioItemView = () => {
             })`,
           }}
         />
+        </div>
+        
         {portfolioItem.imagesCount > 0 && (
           <div className="portfolioItemView__images">
             {Array.from(Array(portfolioItem.imagesCount), (e, i) => (
               <img
-              src={require(`../../assets/images/portfolio/${portfolioItem.slug}-${i + 1}.jpg`).default}
-              alt={portfolioItem.name}
-            />
+                src={
+                  require(`../../assets/images/portfolio/${
+                    portfolioItem.slug
+                  }-${i + 1}.jpg`).default
+                }
+                alt={portfolioItem.name}
+              />
             ))}
           </div>
         )}
