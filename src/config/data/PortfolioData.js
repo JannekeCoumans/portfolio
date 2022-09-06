@@ -5,7 +5,7 @@ const PortfolioData = [
     date: "August 2022",
     summary: {
       EN: "This portfolio - the one you're looking at right now - is a project on it's own. I've added a language select option, used external libraries (the pie-chart on the left below 'Skills'), and I've set up the project as dynamically as possible. I also put in quite a bit of time in terms of design. All this to give an impressive first impression and to show what I have to offer.",
-      NL: "Deze portfolio - waar je nu naar kijkt - is een project op zich. Ik heb een meertalige-optie toegevoegd, gebruik gemaakt van externe libraries (de pie-chart links bij 'Skills') en het project zo dynamisch mogelijk ingericht. Ook qua design heb ik er redelijk wat tijd ingestoken. Dit alles om een indrukwekkende eerste indruk te geven en te laten zien wat ik mijn mars heb.",
+      NL: "Deze portfolio - waar je nu naar kijkt - is een project op zich. Ik heb een meertalige-optie toegevoegd, gebruik gemaakt van externe libraries (de pie-chart links bij 'Skills') en het project zo dynamisch mogelijk ingericht. Ook qua design heb ik er redelijk wat tijd ingestoken. Dit alles om een indrukwekkende eerste indruk te geven en te laten zien wat ik in mijn mars heb.",
     },
     buildWith: ["React", "JavaScript", "HTML", "Sass", "GitHub", "Netlify", "Figma", "Adobe Illustrator"],
     created: ["website", "branding"],
@@ -32,7 +32,7 @@ const PortfolioData = [
     date: "August 2022",
     summary: {
       EN: "What started out as a fun litte side project, turned out to be a bit larger than I first imagined. It helps me and my partner remember our favorite recipes. You can add your own recipe and their ingredients. The added recipes can be viewed and the ingredients can be added to your grocery list. It's a work in progress - we still have lots and lots of ideas for future features.",
-      NL: "Wat begon als een leuk hobby project, is uitgegroeid tot iets veel groters dan ik had kunne bedenken. Het is ontstaan omdat mijn partner en ik onze favoriete recepten altijd vergeten. Zo is het boodschappen doen en bedenken gemakkelijker. De ingredienten van de recepten kun je toevoegen aan je boodschappenlijstje. Het is nog work in progress - we hebben nog superveel ideeën voor features die we kunnen toevoegen aan dit project.",
+      NL: "Wat begon als een leuk hobby project, is uitgegroeid tot iets veel groters dan ik had kunnen bedenken. Het is ontstaan omdat mijn partner en ik onze favoriete recepten altijd vergeten. Zo is het boodschappen doen en bedenken gemakkelijker. De ingrediënten van de recepten kun je toevoegen aan je boodschappenlijstje. Het is nog work in progress - we hebben superveel ideeën voor toekomstige features.",
     },
     buildWith: ["React", "JavaScript", "HTML", "Sass", "GitHub", "Netlify", "Figma", "Adobe Illustrator"],
     created: ["website", "branding"],
