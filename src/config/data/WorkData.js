@@ -22,7 +22,7 @@ const WorkData = [
     },
     description: {
       EN: "TravPRO Mobile is an American company whose development team is based in the Netherlands. This company makes e-learning tools for the tourism industry. These tools are built in React. I also designed web designs for new customers.",
-      NL: "TravPRO Mobile is een Amerikaans bedrijf waarvan het development team in Nederland zit. Dit bedrijf maakt e-learningtools voor de toerisme branche. Deze tools zijn gebouwd in React. Ook mocht ik webdesigns aanleveren voor nieuwe klanten.",
+      NL: "TravPRO Mobile is een Amerikaans bedrijf waarvan het development team in Nederland zit. Dit bedrijf maakt e-learningtools voor de toerisme branche. Deze tools zijn gebouwd in React. Ook maakte ik webdesigns voor de platforms van nieuwe klanten.",
     },
     timing: {
       EN: "May 2021 - June 2022",
@@ -37,7 +37,7 @@ const WorkData = [
     },
     description: {
       EN: 'At Social Deal I worked on the website of sister organization called "Why Not". This website was built in the "Vue JS" framework. You can search and book hotels on this website. I helped build reusable components and this is where I learned to program as dynamically and DRY as possible.',
-      NL: 'Bij Social Deal werkte ik aan de website van zuster organisatie genaamd "Why Not". Deze website was gebouwd in het framework "Vue JS". Op deze website kun je hotels zoeken en boeken. Ik helpte mee met het bouwen van herbruikbare componenten en hier heb ik geleerd om zo dynamisch en DRY mogelijk te programmeren.',
+      NL: 'Bij Social Deal werkte ik aan de website van zuster organisatie genaamd "Why Not". Deze website was gebouwd in het framework "Vue JS". Op deze website kun je hotels zoeken en boeken. Ik hielp mee met het bouwen van herbruikbare componenten en hier heb ik geleerd om zo dynamisch en DRY mogelijk te programmeren.',
     },
     timing: {
       EN: "January 2021 - May 2022",

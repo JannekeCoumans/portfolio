@@ -31,8 +31,8 @@ const PortfolioData = [
     slug: "flavorology",
     date: "August 2022",
     summary: {
-      EN: "A fun little project built in ReactJS. It helps me and my partner remember our favorite recipes. You can add your own recipe and their ingredients. The added recipes can be viewed and the ingredients can be added to your grocery list. It's a work in progress - a lot is still a bit buggy or not even working.",
-      NL: "Een leuk klein projectje gebouwd in ReactJS. Het is ontstaan omdat mijn partner en ik onze favoriete recepten altijd vergeten. Zo is het boodschappen doen en bedenken gemakkelijker. De ingredienten van de recepten kun je toevoegen aan je boodschappenlijstje. Het is nog work in progress - veel is nog steeds een beetje buggy of het werkt nog niet.",
+      EN: "What started out as a fun litte side project, turned out to be a bit larger than I first imagined. It helps me and my partner remember our favorite recipes. You can add your own recipe and their ingredients. The added recipes can be viewed and the ingredients can be added to your grocery list. It's a work in progress - we still have lots and lots of ideas for future features.",
+      NL: "Wat begon als een leuk hobby project, is uitgegroeid tot iets veel groters dan ik had kunne bedenken. Het is ontstaan omdat mijn partner en ik onze favoriete recepten altijd vergeten. Zo is het boodschappen doen en bedenken gemakkelijker. De ingredienten van de recepten kun je toevoegen aan je boodschappenlijstje. Het is nog work in progress - we hebben nog superveel ideeën voor features die we kunnen toevoegen aan dit project.",
     },
     buildWith: ["React", "JavaScript", "HTML", "Sass", "GitHub", "Netlify", "Figma", "Adobe Illustrator"],
     created: ["website", "branding"],
@@ -59,8 +59,8 @@ const PortfolioData = [
     slug: "sushi-van-kai",
     date: "May, 2021",
     summary: {
-      EN: "From my company, studio Pixels & Code, I built a website in React for a friend of mine who has his own sushi takeaway restaurant. He was a starting entrepreneur and I helped him to be visible online as well. I have developed his branding and we regularly add new features. I also designed several prints for him, including a business card/loyalty card, a poster and a gift card.",
-      NL: "Vanuit mijn bedrijf, studio Pixels & Code, heb ik een website gebouwd in React voor een vriend van mij die zijn eigen sushi afhaalrestaurant heeft. Hij was een startende ondernemer en ik heb hem geholpen om ook online zichtbaar te zijn. Ik heb een huisstijl ontwikkeld en we voegen regelmatig nieuwe features toe. Daarnaast heb ik meerdere prints voor hem ontworpen, o.a. een visitekaartje/stempelkaart, een poster en een cadeaubon.",
+      EN: "From my company, studio Pixels & Code, I built a website in React for Kai who has his own sushi takeaway restaurant. He was a starting entrepreneur at the time and I helped him to be visible online as well. I have developed his branding and I regularly add new features. I also designed several prints for him, including a business card/loyalty card, a poster and a gift card.",
+      NL: "Vanuit mijn bedrijf, studio Pixels & Code, heb ik een website gebouwd in React voor Kai die zijn eigen sushi afhaalrestaurant heeft. Hij was destijds een startende ondernemer en ik heb hem geholpen om ook online zichtbaar te zijn. Ik heb een huisstijl ontwikkeld en ik voeg regelmatig nieuwe features toe. Daarnaast heb ik meerdere prints voor hem ontworpen, o.a. een visitekaartje/stempelkaart, een poster en een cadeaubon.",
     },
     buildWith: ["React", "JavaScript", "HTML", "Sass", "GitHub", "Netlify", "Figma", "Adobe Illustrator", "Adobe Photoshop"],
     created: ["website", "branding", "business cards", "gift cards"],
@@ -86,8 +86,8 @@ const PortfolioData = [
     slug: "ingrid-yasuda",
     date: "June 2022",
     summary: {
-      EN: "A friend of mine took over a company whose business plan already existed, but she wanted to change it to her own style. I developed a branding for her and built a website in WordPress.",
-      NL: "Een vriendin van mij heeft een bedrijf overgenomen waarvan het bedrijfsplan al bestond, maar wilde het veranderen naar haar eigen stijl. Voor haar heb ik een huisstijl ontwikkeld en een website gebouwd in WordPress.",
+      EN: "Ingrid took over a company whose business plan already existed, but she wanted to change it to her own style. I developed a branding for her and built a website in WordPress.",
+      NL: "Ingrid heeft een bedrijf overgenomen waarvan het bedrijfsplan al bestond, maar wilde het veranderen naar haar eigen stijl. Voor haar heb ik een huisstijl ontwikkeld en een website gebouwd in WordPress.",
     },
     buildWith: ["WordPress", "CSS"],
     created: ["website", "branding", "Figma", "Adobe Illustrator", "Adobe Photoshop"],
@@ -99,8 +99,8 @@ const PortfolioData = [
     slug: "ontspannen-bij-momo",
     date: "January 2022",
     summary: {
-      EN: "A friend of my mother has her own massage practice at home. She gives different types of massages in a beautifully decorated space. She has her own style and I was able to successfully convert this into a branding. I also built a website for her in WordPress.",
-      NL: "Een vriendin van mijn moeder heeft haar eigen massagepraktijk aan huis. Ze geeft verschillende soorten massages in een prachtig ingerichte ruimte. Ze heeft een hele eigen stijl en dit heb ik met succes kunnen omzetten tot een huisstijl. Daarnaast heb ik een website gebouwd voor haar in WordPress.",
+      EN: "Monique has her own massage practice at home. She gives different types of massages in a beautifully decorated space. She has her own style and I was able to successfully convert this into a branding. I also built a website for her in WordPress.",
+      NL: "Monique heeft haar eigen massagepraktijk aan huis. Ze geeft verschillende soorten massages in een prachtig ingerichte ruimte. Ze heeft een hele eigen stijl en dit heb ik met succes kunnen omzetten tot een huisstijl. Daarnaast heb ik een website gebouwd voor haar in WordPress.",
     },
     buildWith: ["WordPress", "CSS", "Figma", "Adobe Illustrator", "Adobe Photoshop"],
     created: ["website", "branding", "business cards"],

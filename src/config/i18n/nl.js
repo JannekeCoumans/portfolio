@@ -74,7 +74,7 @@ const nederlands = {
         "Naast mijn werk voor mijn eigen bedrijf en het werken bij een werkgever, blijf ik mezelf ook graag ontwikkelen. Zo heb ik altijd wel weer een nieuwe cursus op het oog en een heel lang lijstje met projecten die ik voor mezelf wil maken. Programmeren en designen is voor mij ook echt een hobby dus!",
       title2: "Creatief met mijn handen",
       copy2:
-        "Soms heb ik genoeg schermen gezien en vind ik het leuk om creatief te zijn met mijn handen. Ik schilder graag, maar ben ook graag bezig met het opknappen van meubels, verven van muren en ik heb een grote voorliefde voor interior design.",
+        "Soms heb ik genoeg schermen gezien en vind ik het leuk om creatief te zijn met mijn handen. Ik schilder graag, maar vind het ook superleuk om bezig met het opknappen van meubels, verven van muren en ik heb een grote voorliefde voor interieur design.",
     },
   },
   skillsview: {
@@ -82,7 +82,7 @@ const nederlands = {
   },
   portfolioview: {
     title: "Portfolio",
-    copy: "Hier een greep uit mijn meest recente en relevante werk. Een aantal hobby-projecten zijn verre van af, maar kunnen wel laten zien wat ik kan.",
+    copy: "Hier een greep uit mijn meest recente en relevante werk. Een aantal hobby-projecten zijn verre van af, maar laten wel zien wat ik kan.",
   },
   portfolioitemview: {
     builtWith: "Dit project is gebouwd met:",
@@ -93,7 +93,7 @@ const nederlands = {
   },
   workview: {
     title: "Werkervaring",
-    copy: "Hieronder een aantal van mijn relevantie vorige werkgevers. Mocht je nog vragen hebben, neem gerust contact met me op.",
+    copy: "Hieronder bevinden zich een aantal van mijn huidige en/of vorige relevante werkgevers. Mocht je nog vragen hebben, neem gerust contact met me op.",
   },
   contactview: {
     title: "Neem contact met me op!",
